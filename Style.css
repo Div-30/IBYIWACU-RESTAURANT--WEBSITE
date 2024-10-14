@@ -1,0 +1,37 @@
+h1{
+    color: blue;
+}
+
+#header2 {
+    color: rgb(58, 128, 0);
+}
+
+#header1{
+    color: rgb(4, 0, 255);
+}
+
+#paragraph{
+    text-align: center;
+    color: rgb(188, 122, 102);
+
+}
+
+#header3 {
+    color: rgb(102, 155, 188);
+}
+
+#header {
+    color: rgb(102, 188, 121);
+    text-align: center;
+}
+
+#delivery{
+    text-align: center;
+    color: rgb(102, 168, 188);
+}
+
+#button{
+    text-align: center;
+}
+
+
