@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBYIWACU RESTAURANT</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">IBYIWACU RESTAURANT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#prices">Prices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#delivery">Delivery</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">IBYIWACU RESTAURANT</h1>
+            <p class="lead fs-3">Experience the Authentic Taste of Rwanda</p>
+            <button class="btn btn-light btn-lg mt-3">View Our Menu</button>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="menu">
+            <h2 class="text-center mb-4">OUR MENU</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h3>Breakfast</h3>
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Soup.jpg" class="img-fluid rounded-start" alt="Soup and sandwich">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h4 class="card-title">Soup and sandwich <span class="badge bg-primary">New</span></h4>
+                                    <p class="card-text">A delicious combination of our homemade soup and freshly made sandwich.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Latte_and_dark_coffee.jpg" class="img-fluid rounded-start" alt="Coffee">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h4 class="card-title">Coffee</h4>
+                                    <p class="card-text">Choose from our selection of freshly brewed coffee options.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Lunch</h3>
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Chickenwings.jpg" class="img-fluid rounded-start" alt="Chicken wings">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h4 class="card-title">Chicken wings</h4>
+                                    <p class="card-text">Crispy and flavorful chicken wings served with your choice of sauce.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="Burger.webp" class="img-fluid rounded-start" alt="Burger">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h4 class="card-title">Burger</h4>
+                                    <p class="card-text">A juicy burger made with premium beef and fresh toppings.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="prices" class="mt-5">
+            <h2 class="text-center mb-4">Prices</h2>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Meal</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Breakfast</td>
+                            <td>$10</td>
+                        </tr>
+                        <tr>
+                            <td>Lunch</td>
+                            <td>$14</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="alert alert-info mt-3" role="alert">
+                Try our new Soup and Sandwich combo!
+            </div>
+        </section>
+
+        <section id="delivery" class="mt-5">
+            <h2 class="text-center mb-4">Want Delivery? We've Got You Covered!</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="addressInput" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="addressInput" placeholder="Enter your delivery address">
+                </div>
+                <div class="mb-3">
+                    <label for="phoneInput" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phoneInput" placeholder="Enter your phone number">
+                </div>
+                <button type="submit" class="btn btn-primary">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 IBYIWACU RESTAURANT. All rights reserved.</p>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+        
